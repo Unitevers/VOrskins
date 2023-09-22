@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOrskins</title>
+    <link rel="stylesheet" href="css/design-Subscribe-Final.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <script defer src="js/scriptform.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="Home-HCI-TIM-Final.html"><img src="images/logoNEW.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="Home-HCI-TIM-Final.html">Home</a></li>
+                    <li><a href="About-HCI-TIM-Final.html">About</a></li>
+                    <li><a href="Promotion-HCI-TIM-Final.html">Promotions</a></li>
+                    <li><a href="Products-HCI-TIM-Final.html">Products</a></li>
+                    <li><a href="Subscribe-HCI-TIM-Final.html">Subscribe</a></li>
+                </ul>
+            </div>      
+        </nav>
+    </header>
+
+    <section class="Subscribe">
+        <div class="container">
+            <h2>Registration Form</h2>
+            <form action="" id="register-form" method="GET">
+                <div>
+                    <div class="comp-1">
+                        <label class="txt">Full Name</label> 
+                    </div>  
+                    <div class="comp-2">
+                        <input type="text" placeholder="Name" name="name" id="name-txt">  
+                    </div>
+                </div> 
+                <div class= "error" id="error-name"></div>
+                <div>
+                    <div class="comp-1">
+                        <label class="txt">Email Address</label> 
+                    </div>  
+                    <div class="comp-2">
+                        <input type="email" placeholder="Email" name="email" id="email-txt">
+                    </div>
+                </div>
+                <div class= "error" id="error-email"></div> 
+                <div>
+                    <div class="comp-1">
+                        <label class="txt">Phone Number</label> 
+                    </div>  
+                    <div class="comp-2">
+                        <input type="text" placeholder="Phone Number" name="phone" id="phone-txt">
+                    </div>
+                </div>
+                <div class= "error" id="error-phone"></div>
+                <div>
+                    <div class="comp-1">
+                        <label class="txt">Preferences</label> 
+                    </div>  
+                    <div class="comp-2">
+                        <select name="Preferences" id="preferences-txt">
+                            <option value="">Select Your Preference</option>
+                            <option value="Face Products">Face Products</option>
+                            <option value="Body Products">Body Products</option>
+                            <option value="Hand Products">Hand Products</option>
+                        </select>
+                    </div>
+                </div>
+                <div class= "error" id="error-pref"></div>
+                <div class="comp-1">
+                    <label class="txt">Gender</label> 
+                </div>  
+                    <div class="in">
+                        <input type="radio" name="Gender" id="female-txt">
+                        <label class="sub-txt">Female</label> 
+                    </div>
+                    <div class="in2">  
+                        <input type="radio" name="Gender" id="male-txt">
+                        <label class="sub-txt">Male</label> 
+                    </div>
+                <div class= "errorC" id="error-FeMa"></div>                   
+                <div>
+                    <input type="checkbox" name="cbox" id="checkbox-txt">
+                    <label class="sub-txt">I agree to receive newsletter (must agree)</label>               
+                </div>
+                <div class= "errorC" id="error-CB"></div>
+                <div> 
+                    <input type="submit" value="Register" onclick="">
+                </div>   
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo-footer">
+            <a href="Home-HCI-TIM-Final.html"><img src="images/logoNEW.png"></a>
+            </div>
+            <div class="socials">
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="footer-content">
+            <ul class="nav-footer">
+                <li><a href="Home-HCI-TIM-Final.html">Home</a></li>
+                <li><a href="About-HCI-TIM-Final.html">About</a></li>              
+                <li><a href="Promotion-HCI-TIM-Final.html">Promotions</a></li>
+                <li><a href="Products-HCI-TIM-Final.html">Products</a></li>
+            </ul>
+        </div>
+        <div class="footer-content">
+            <p class="address">
+                <p>
+                    PT. VOrskins Indonesia
+                </p>
+                <p>
+                    Lomulus Tower, Floor 20, Grand Mawar Central
+                </p>
+                <p>
+                    Industrial District, Jakarta 18956
+                </p>
+            </p>
+            <p class="telephone">
+                <p>
+                    + 62 35 372836481
+                </p>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

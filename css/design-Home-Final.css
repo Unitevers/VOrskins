@@ -1,0 +1,373 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+}
+
+body{
+    background-color: #DEE2FF;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+nav{
+    display:flex;
+    justify-content: flex-end;
+    background-color: #B7D8FF;
+    position: absolute;
+    width: 100%;
+    height: 99px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.a-1 img{
+    width: 327px;
+    align-items: baseline;
+    margin-right: 250px;
+}
+
+.nav-links ul{
+    font-family: Merriweather;
+    color: black;
+    justify-content: flex-end;
+    font-size: 25px;
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+    padding: 31px 12px 31px 0px;
+}
+
+.nav-links{
+    padding: 0px 32px 0px 0px;
+}
+
+.a-1{
+    padding-left: 78px;
+    display: inline-flex;
+}
+
+.n-1{
+    padding-left: 78px;
+    display: inline-flex;
+}
+
+li a{
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+.ads img{
+    display: flex;
+    padding-top: 40px;
+    position: absolute;
+    left: 0px;
+    top: 58px;
+    width: 100%;
+    size-adjust: 125px;
+}
+
+.card1{
+    width: 276px;
+    height: 372px;
+    grid-column: span 2;
+    margin: 50px 0px 0px 0px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+    background-color: #FAF6F6;
+    margin-left: 35px;
+}
+
+.card2{
+    width: 276px;
+    height: 372px;
+    grid-column: span 2;
+    margin: 50px 0px 0px 0px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+    background-color: #FAF6F6;
+    margin-left: 35px; 
+}
+
+.container {
+    padding: 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    margin: 5px 15px;
+    gap:20px;
+    position: relative;
+    padding-left: 229px;
+}
+
+.container img{
+    border-radius: 15px 15px 0px 0px;
+    width: 276px;
+    height: 184.02px;
+}
+
+h1{
+    padding-left: 650px;
+    padding-top: 450px;
+    font-family: Merriweather;
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+}
+
+h2{
+    padding-left: 610px;
+    padding-top: 63px;
+    font-family: Merriweather;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h3{
+    font-family: Merriweather;
+    padding-left: 11px;
+    padding-top: 4px;
+    font-size: 30px;
+    color: black;
+}
+
+.desc{
+    font-family: 'ABeeZee';
+    color: #737373;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+footer{
+    position: absolute;
+    bottom: -1095px;
+    background-color: #B7D8FF;
+    display: flex;
+    width: 100%;
+    height: 285px;
+    border-radius: 15px 15px 0px 0px;
+    line-height: 50px;
+}
+
+.logo-footer{
+    width: 327px;
+    align-items: baseline;
+    padding-top: 75px;
+}
+
+.socials ul{
+    display: inline-flex;
+    padding-left: -30px;
+    width: 100px;
+}
+
+.address {
+    padding-top: 44px;
+}
+
+.nav-footer{
+    padding-top: 61px;
+    padding-left: 107px;
+    font-family: Merienda;
+}
+
+.nav-footer li{
+    line-height: 35px;
+    font-size: 23px;
+}
+
+p{
+    padding-top: -13px;
+    padding-left: 290px;
+    font-family: Merienda;
+    font-size: 23px;
+    line-height: 43px;
+}
+
+.telephone{
+    padding-top: 30px;
+}
+
+@media screen and (max-width:800px){
+    nav{
+        display:flex;
+        justify-content: flex-end;
+        position: absolute;
+        width: 100%;
+        height: 15%;
+        border-radius: 0px 0px 15px 15px;
+        padding-top: 170px;
+    }
+    
+    .a-1 img{
+        width: 80%;
+        height: 80%;
+        padding-top: 10px;
+        align-items: baseline;
+    }
+    
+    .nav-links ul{
+        font-family: Merriweather;
+        color: black;
+        justify-content: flex-end;
+        font-size: 13px;
+        display: inline-flex;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 8%;
+    }
+    
+    .nav-links{
+        padding-bottom: 50%;
+    }
+    
+    .a-1{
+        padding-left: 28px;
+        display: inline-flex;
+    }
+    
+    .ads img{
+        display: flex;
+        padding-top: 30px;
+        position: absolute;
+        left: 0px;
+        top: 68px;
+        width: 100%;
+        size-adjust: 125px;
+    }
+
+    .container {
+        padding: 0;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(8,1fr);
+        margin: 5px 15px;
+        gap: 40px;
+        position: relative;
+        padding-left: 87px;
+    }
+
+    .container img{
+        border-radius: 15px 15px 0px 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .card1{
+        width: 165px;
+        height: 90%;
+        grid-column: span 2;
+        margin: 50px 0px 0px 0px;
+        border-radius: 5px;
+        position: relative;
+        box-shadow: 0 10px 10px rgba(0,0,0,.1);
+        background-color: #FAF6F6;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .card2{
+        width: 165px;
+        height: 90%;
+        grid-column: span 2;
+        margin: 50px 0px 0px 0px;
+        border-radius: 5px;
+        position: relative;
+        box-shadow: 0 10px 10px rgba(0,0,0,.1);
+        background-color: #FAF6F6;
+        border-radius: 15px 15px 0px 0px;
+    }
+    
+    h1{
+        width: 100%;
+        font-size: 150%;
+        padding-left: 42%;
+        margin-top: -22%;
+    }
+    
+    h2{
+        padding-left: 308px;
+        padding-top: 100px;
+        font-family: Merriweather;
+        font-weight: 700;
+        font-size: 150%;
+        width: 100%;
+    }
+    
+    h3{
+        font-family: Merriweather;
+        padding-left: 11px;
+        padding-top: 4px;
+        font-size: 100%;
+    }
+    
+    .desc{
+        font-family: 'ABeeZee';
+        color: #737373;
+        padding-left: 10px;
+        padding-top: 5px;
+        font-size: 100%;
+        line-height: 23px;
+    }
+    
+    footer{
+        position: absolute;
+        bottom: -750px;
+        background-color: #B7D8FF;
+        display: flex;
+        width: 100%;
+        height: 285px;
+        border-radius: 15px 15px 0px 0px;
+        line-height: 50px;
+    }
+    
+    .logo-footer{
+        width: 327px;
+        align-items: baseline;
+        padding-top: 75px;
+    }
+    
+    .socials ul{
+        display: inline-flex;
+        padding-left: 50px;
+        width: 100px;
+    }
+    
+    .address {
+        padding-top: 65px;
+    }
+    
+    .nav-footer{
+        padding-top: 61px;
+        margin-left: -150px;
+        font-family: Merienda;
+    }
+    
+    .nav-footer li{
+        line-height: 35px;
+        font-size: 13px;
+    }
+    
+    p{
+        padding-top: 0px;
+        padding-left: 70px;
+        font-family: Merienda;
+        font-size: 13px;
+        line-height: 30px;
+    }
+    
+    .telephone{
+        padding-top: 20px;
+    }
+}
